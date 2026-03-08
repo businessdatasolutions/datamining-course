@@ -1,6 +1,7 @@
 ```{r message=TRUE, warning=TRUE, include=FALSE}
 library(tidyverse)
 library(plotly)
+reticulate::use_virtualenv(here::here(".venv"), required = TRUE)
 ```
 
 # Setting up your data science environment {#setup}
